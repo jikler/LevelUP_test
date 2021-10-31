@@ -1,0 +1,55 @@
+button
+	cursor: pointer
+
+a.button
+	display: block
+	min-width: 150px
+	text-align: center
+
+.button
+	background: $active-color
+	color: $color-grey
+	border-radius: 50px
+	border: 2px solid transparent
+	font-size: 16px
+	font-weight: 700
+	padding: 20px 40px
+	transition: .1s
+	&-o
+		background: none
+		border:	2px solid $active-color
+		color: $active-color
+	&:hover
+		color: $color-grey
+		background: $active-color-hover
+		border: 2px solid transparent
+
+.button-block
+	width: 230px
+	margin: 0 auto
+
+.section-title
+	color: $active-color
+	font-size: 42px
+	font-weight: 700
+	span
+		font-size: 16px
+
+.scrollup
+	position: fixed
+	color: #fff
+	background-color: #388e3c
+	left: 20px
+	bottom: 15px
+	padding: 6px
+	font-size: 18px
+	border-radius: 50%
+	width: 40px
+	height: 40px
+	cursor: pointer
+	display: none
+	text-align: center
+	transition: .3s
+	z-index: 100
+	&:hover
+		background-color: #000

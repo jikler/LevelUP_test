@@ -1,0 +1,92 @@
+.main
+ overflow: hidden
+ padding-top: 150px
+ padding-bottom: 50px
+ // background: url('../img/main/main-bg.jpg')
+ background-repeat: no-repeat
+ background-position: center
+ background-size: cover
+ position: relative
+ z-index: 1
+ clip-path: ellipse(140% 100% at top) // маска css
+ h1
+  line-height: 20px
+  padding-bottom: 20px
+ &-overlay
+  background: linear-gradient(3deg, rgba(84,23,94,0.8) 0%, rgba(108,62,110,0.9) 35%, rgba(213,152,215,0.8) 100%)
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  z-index: 0
+ &-block
+  position: relative
+  z-index: 1
+  width: 90%
+  margin: 0 auto
+  &__wrap
+   display: flex
+   justify-content: space-between
+   align-items: center
+   padding-bottom: 30px
+   &-img
+    width: 250px
+    img
+     width: 100%
+   &-descr
+    width: 60%
+    ul
+     list-style: none
+     margin: 0
+     padding: 0
+     li
+      color: #fff
+      font-size: 22px
+      padding-bottom: 40px
+  // &__button
+  //  width: 230px
+  //  margin: 0 auto
+
+.fullscreen-bg__video
+ position: absolute
+ top: 50%
+ left: 50%
+ transform: translate(-50%, -50%)
+ min-width: 100%
+ min-height: 100%
+ width: auto
+ height: auto
+ z-index: -1
+
+
+// .slick-dots
+//  border: 2px solid #5186c0
+//  border-radius: 50px
+//  width: 100px
+//  bottom: -12em
+//  left: 50%
+//  transform: translate(-50%, -50%)
+
+// .slick-dots li
+//  margin: 0 5px
+//  padding: 10px 0
+//  width: 25px
+//  height: 2px
+
+// .slick-dots li button:before
+//  position: absolute
+//  top: 50%
+//  left: 50%
+//  transform: translate(-50%, -50%)
+//  content: ''
+//  text-align: center
+//  opacity: 1
+//  width: 25px
+//  height: 2px
+//  background: #5186c0
+//  border-radius: 5px
+
+// .slick-dots li.slick-active button:before
+//  background: #fff !important

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Cera Round Pro';
+    src: url('../fonts/CeraRoundProDEMO-Bold.eot');
+    src: url('../fonts/CeraRoundProDEMO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CeraRoundProDEMO-Bold.woff2') format('woff2'),
+        url('../fonts/CeraRoundProDEMO-Bold.woff') format('woff'),
+        url('../fonts/CeraRoundProDEMO-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    src: url('../fonts/CeraRoundProDEMO-Light.eot');
+    src: url('../fonts/CeraRoundProDEMO-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CeraRoundProDEMO-Light.woff2') format('woff2'),
+        url('../fonts/CeraRoundProDEMO-Light.woff') format('woff'),
+        url('../fonts/CeraRoundProDEMO-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    src: url('../fonts/CeraRoundProDEMO-Regular.eot');
+    src: url('../fonts/CeraRoundProDEMO-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CeraRoundProDEMO-Regular.woff2') format('woff2'),
+        url('../fonts/CeraRoundProDEMO-Regular.woff') format('woff'),
+        url('../fonts/CeraRoundProDEMO-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Medium.eot');
+    src: url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Geometria-Medium.woff2') format('woff2'),
+        url('../fonts/Geometria-Medium.woff') format('woff'),
+        url('../fonts/Geometria-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    src: url('../fonts/CeraRoundProDEMO-Medium.eot');
+    src: url('../fonts/CeraRoundProDEMO-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CeraRoundProDEMO-Medium.woff2') format('woff2'),
+        url('../fonts/CeraRoundProDEMO-Medium.woff') format('woff'),
+        url('../fonts/CeraRoundProDEMO-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

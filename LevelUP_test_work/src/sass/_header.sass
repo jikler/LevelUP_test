@@ -1,0 +1,67 @@
+.header
+ background: none
+ padding-top: 18px
+ padding-bottom: 18px
+ position: fixed
+ z-index: 2
+ width: 100%
+ transition: .2s
+ &-block
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &__logo
+   // width: 200px
+   // height: auto
+   a
+    font-size: 28px
+    color: #fff
+  &__nav
+   width: 45%
+   display: flex
+   justify-content: space-between
+   padding: 0
+   margin: 0
+   list-style: none
+   li
+    a
+     color: #fff
+     position: relative
+     font-weight: 500
+     font-size: 16px
+     transition: .2s
+     &:hover
+      color: $active-color
+
+.active
+ color: $active-color !important
+ &:before
+  content: ''
+  width: 5px
+  height: 5px
+  background: $active-color
+  border-radius: 50%
+  position: absolute
+  top: 1.3em
+  left: 50%
+  transform: translate(-50%, -50%)
+  transition: .1s
+ // &:hover:before
+ //  background: $active-color
+
+.fixed-nav
+ background: #733c71
+ transition: .2s
+ padding: 10px 0
+
+.w-logo
+ font-size: 20px !important
+ transition: .1s
+
+.b-small
+ padding: 10px 30px
+
+.button-mobile,
+.menu-container,
+.toggle-menu
+ display: none
